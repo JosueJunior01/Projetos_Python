@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
 # cria o objeto chatbot
-chatbot = ChatBot('Meu Chatbot')
+chatbot = ChatBot('Ahri')
 
 # cria o treinador
 trainer = ListTrainer(chatbot)
@@ -29,4 +29,4 @@ while True:
         break
 
     response = get_response(user_input)
-    print('Chatbot:', response)
+    print('Ahri:', response)
